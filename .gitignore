@@ -1,0 +1,27 @@
+# frontend (Next.js)
+frontend/node_modules
+frontend/.next/
+frontend/out/
+frontend/.pnp
+frontend/.pnp.*
+frontend/.vercel
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+frontend/npm-debug.log*
+frontend/.env*
+
+# backend (Python)
+backend/.venv
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+
+# runtime data (uploaded/generated files, not source)
+data/uploads/*
+data/outputs/*
+!data/uploads/.gitkeep
+!data/outputs/.gitkeep
+
+# misc
+.DS_Store
+*.pem
