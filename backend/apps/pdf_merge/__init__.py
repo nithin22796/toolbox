@@ -16,6 +16,7 @@ manifest = Manifest(
     name="Merge to PDF",
     description="Combine images and PDFs into a single PDF, in the order provided.",
     icon="merge",
+    category="PDF",
 )
 
 router = APIRouter()

@@ -14,6 +14,7 @@ manifest = Manifest(
     name="Compress PDF",
     description="Shrink PDF file size by downsampling images and re-compressing streams.",
     icon="compress",
+    category="PDF",
 )
 
 router = APIRouter()

@@ -11,6 +11,7 @@ class Manifest:
     name: str
     description: str
     icon: str = "app"
+    category: str = "General"
 
 
 @dataclass

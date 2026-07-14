@@ -30,6 +30,7 @@ def list_apps():
             "name": p.manifest.name,
             "description": p.manifest.description,
             "icon": p.manifest.icon,
+            "category": p.manifest.category,
         }
         for p in plugins
     ]
